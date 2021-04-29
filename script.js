@@ -38,5 +38,5 @@ document.querySelector("#rect").addEventListener("click",function(){
 });
 document.querySelector("#copy").addEventListener("click",() =>{
 
- navigator.clipboard.writeText(transcription);
+ navigator.clipboard.writeText(transcription.textContent);
 });
